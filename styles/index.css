@@ -29,11 +29,8 @@ body{
   letter-spacing: 3px;
   font-weight: 100;
 }
-.box p.quote{
+.box p{
   text-align: center;
-}
-.box p.author-quote{
-  font-weight: bold;
 }
 ul{
   margin: 0;
