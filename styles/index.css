@@ -29,8 +29,13 @@ body{
   letter-spacing: 3px;
   font-weight: 100;
 }
-.box p{
+.box p.quote{
+  text-align: justify;
+  font-style: italic;
+}
+.box p.author{
   text-align: center;
+  font-weight: bold;
 }
 ul{
   margin: 0;
