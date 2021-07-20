@@ -31,7 +31,6 @@ body{
 }
 .box p.quote{
   text-align: center;
-  /* font-style: italic; */
 }
 .box p.author-quote{
   font-weight: bold;
