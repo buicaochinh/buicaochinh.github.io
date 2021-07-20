@@ -30,8 +30,8 @@ body{
   font-weight: 100;
 }
 .box p.quote{
-  text-align: justify;
-  font-style: italic;
+  text-align: center;
+  /* font-style: italic; */
 }
 .box p.author-quote{
   font-weight: bold;
