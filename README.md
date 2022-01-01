@@ -1,3 +1,2 @@
 # buicaochinh.github.io
-My Website
-# Bui Cao Chinh Personal Website
+Bui Cao Chinh's Personal Website
