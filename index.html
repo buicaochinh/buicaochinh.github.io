@@ -1,19 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bùi Cao Chinh - Software & Data Engineer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="./styles/index.css">
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-  <title>Bùi Cao Chinh</title>
 </head>
 
-<body>
-  <div class="wrapper">
-    <div class="greeting">
-      <p id="message"></p>
-    </div>
-  </div>
+<body class="light-theme">
+  <canvas id="bg"></canvas>
+
+  <button id="theme-toggle" class="theme-toggle" title="Chuyển đổi theme">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <main>
+    <header>
+      <h1>Xin chào, tôi là Bùi Cao Chinh</h1>
+      <p>Software & Data Engineer</p>
+    </header>
+
+    <section id="about">
+      <div class="about-content">
+        <p>Là một Software & Data Engineer với niềm đam mê mãnh liệt về công nghệ và phân tích dữ liệu. Tôi luôn
+          tìm kiếm những thách thức mới để phát triển và cải thiện kỹ năng của mình. Với kinh nghiệm trong
+          phát triển phần mềm và xử lý dữ liệu, tôi mong muốn tạo ra những giải pháp hiệu quả và sáng tạo.</p>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/yourusername" target="_blank" class="social-link" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://twitter.com/yourusername" target="_blank" class="social-link" title="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="mailto:your.email@example.com" class="social-link" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="./scripts/index.js"></script>
 </body>
 
